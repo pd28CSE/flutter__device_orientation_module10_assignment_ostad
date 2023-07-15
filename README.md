@@ -16,5 +16,5 @@
 
 
 2. ## Landscape Mode Home Screen
-<img src="" width="50%" height="50%"><hr>
+<img src="" width="60%" height="50%"><hr>
 

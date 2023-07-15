@@ -5,12 +5,12 @@ class LandscapeHomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          const SizedBox(
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        const Padding(
+          padding: EdgeInsets.all(10.0),
+          child: SizedBox(
             child: AspectRatio(
               aspectRatio: 9 / 9,
               child: CircleAvatar(
@@ -18,9 +18,11 @@ class LandscapeHomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(width: 10),
-          Expanded(
-            child: SingleChildScrollView(
+        ),
+        Expanded(
+          child: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.only(top: 10),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -46,7 +48,7 @@ class LandscapeHomeScreen extends StatelessWidget {
                     children: <Widget>[
                       ...List.generate(7, (index) {
                         return SizedBox(
-                          width: 141,
+                          width: 144,
                           height: 120,
                           child: Image.asset(
                             'assets/images/flower.jpg',
@@ -59,9 +61,9 @@ class LandscapeHomeScreen extends StatelessWidget {
                 ],
               ),
             ),
-          )
-        ],
-      ),
+          ),
+        )
+      ],
     );
   }
 }

@@ -6,7 +6,7 @@ class PortraitHomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.fromLTRB(8, 8, 8, 0),
       child: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -27,7 +27,7 @@ class PortraitHomeScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            //  const Flexible(child: SizedBox(height: 10)),
+            const SizedBox(height: 10),
             const Text(
               'Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing.',
               textAlign: TextAlign.justify,
@@ -42,7 +42,7 @@ class PortraitHomeScreen extends StatelessWidget {
               children: <Widget>[
                 ...List.generate(7, (index) {
                   return SizedBox(
-                    width: 120,
+                    width: 122,
                     height: 120,
                     child: Image.asset(
                       'assets/images/flower.jpg',
