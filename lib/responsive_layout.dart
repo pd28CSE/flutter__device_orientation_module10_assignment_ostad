@@ -8,16 +8,18 @@ class ResponsiveLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final bool isPortrait =
-        Orientation.portrait == MediaQuery.of(context).orientation;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
       ),
-      body: Visibility(
-        visible: isPortrait,
-        replacement: const LandscapeHomeScreen(),
-        child: const PortraitHomeScreen(),
+      body: OrientationBuilder(
+        builder: (BuildContext context, Orientation orientation) {
+          return Visibility(
+            visible: orientation == Orientation.portrait,
+            replacement: const LandscapeHomeScreen(),
+            child: const PortraitHomeScreen(),
+          );
+        },
       ),
     );
   }
