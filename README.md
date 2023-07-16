@@ -16,5 +16,5 @@
 
 
 2. ## Landscape Mode Home Screen
-<img src="https://github.com/pd28CSE/flutter__device_orientation_module10_assignment_ostad/assets/71305747/03536cea-28db-4d30-8635-43fd61211fb4" width="80%" height="50%"><hr>
+<img src="https://github.com/pd28CSE/flutter__device_orientation_module10_assignment_ostad/assets/71305747/0a4c4dee-4dcf-4e2a-af65-e92c33a5b755" width="80%" height="50%"><hr>
 
