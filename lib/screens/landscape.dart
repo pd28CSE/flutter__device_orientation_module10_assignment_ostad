@@ -41,21 +41,21 @@ class LandscapeHomeScreen extends StatelessWidget {
                       fontSize: 15,
                     ),
                   ),
-                  const SizedBox(height: 10),
-                  Wrap(
-                    spacing: 5,
-                    runSpacing: 5,
+                  const SizedBox(height: 10.0),
+                  GridView.count(
+                    mainAxisSpacing: 5.0,
+                    crossAxisSpacing: 5.0,
+                    crossAxisCount: 3,
+                    primary: false,
+                    shrinkWrap: true,
                     children: <Widget>[
-                      ...List.generate(7, (index) {
-                        return SizedBox(
-                          width: 144,
-                          height: 120,
-                          child: Image.asset(
-                            'assets/images/flower.jpg',
-                            fit: BoxFit.cover,
-                          ),
-                        );
-                      }),
+                      ...List.generate(
+                        10,
+                        (index) => Image.asset(
+                          'assets/images/flower.jpg',
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                     ],
                   ),
                 ],
