@@ -12,9 +12,10 @@
 # UI
 
 1. ## Portrait Mode Home Screen
-<img src="https://github.com/pd28CSE/flutter__device_orientation_module10_assignment_ostad/assets/71305747/6a432c81-b925-40e2-9b7f-ce8d30475fde" width="50%" height="50%"><hr>
+<img src="https://github.com/pd28CSE/flutter__device_orientation_module10_assignment_ostad/assets/71305747/85b27927-f737-4e23-a7e4-66835231ae3d" width="50%" height="50%"><hr>
+
 
 
 2. ## Landscape Mode Home Screen
-<img src="https://github.com/pd28CSE/flutter__device_orientation_module10_assignment_ostad/assets/71305747/0a4c4dee-4dcf-4e2a-af65-e92c33a5b755" width="80%" height="50%"><hr>
+<img src="https://github.com/pd28CSE/flutter__device_orientation_module10_assignment_ostad/assets/71305747/cc3d2e7f-7733-4d61-9291-e39bb6b1a291" width="80%" height="50%"><hr>
 
